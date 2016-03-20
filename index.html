@@ -14,17 +14,30 @@
 			color: black;
 		}
 		header{
-			height: 120px;
+			height: 100px;
 			width: 100%;
 			background-color: #337AB7;
+			padding: 10px 0;
 		}
 		nav{
 			margin: 0 auto;
 			width: 1138px;
 		}
-		nav img{
-			margin: 22px 0 0 -13px;
+		nav img:not(.logo){
+			display: inline-block;
+			margin-left: 10px;
+			width: 70px;
+			height: 70px;
+			border-radius: 350px;
+			margin-bottom: -10px;
 		}
+		.logo{
+			width: 100px;
+			height: 100px;
+			border-radius: 0;
+			margin-right: 698px;
+		}
+		
 		section{
 			margin: 0 auto;
 			width: 1138px;
@@ -40,17 +53,32 @@
 <body>
 	<header>
 		<nav>
-			<a href="http://ife.baidu.com"><img src="./task1.1/images/logo.png"></a>
-		</nav>
-	</header>
-	<section>
-		<ul>
-			<li><a href="./task1.1/index.html">任务一：零基础HTML编码</a></li>
-			<li><a href="./task1.2/index.html">任务二：零基础HTML编码(一)</a></li>
-			<li><a href="./task1.3/index.html">任务三：三栏式布局</a></li>
-			<li><a href="./task1.4/index.html">任务四：定位和居中问题</a></li>
-			<li><a href="./task1.5/index.html">任务五：零基础HTML及CSS编码（二）</a></li>
-		</ul>
-	</section>
+			<img src="./task1.2/images/logo.jpg" class="logo">
+			<a href="#"><img src="./task1.1/images/dongsuo.jpg"></a>
+			<a href=""><img src="./task1.1/images/gitkid.jpg"></a>
+			<a href=""><img src="./task1.1/images/gitturtle.jpg"></a>
+			<a href=""><img src="./task1.1/images/ku10x.png"></a>
+	</nav>
+
+</header>
+<section>
+	<ul>
+		<li>
+			<a href="./task1.1/index.html">任务一：零基础HTML编码</a>
+		</li>
+		<li>
+			<a href="./task1.2/index.html">任务二：零基础HTML编码(一)</a>
+		</li>
+		<li>
+			<a href="./task1.3/index.html">任务三：三栏式布局</a>
+		</li>
+		<li>
+			<a href="./task1.4/index.html">任务四：定位和居中问题</a>
+		</li>
+		<li>
+			<a href="./task1.5/index.html">任务五：零基础HTML及CSS编码（二）</a>
+		</li>
+	</ul>
+</section>
 </body>
 </html>
