@@ -1,0 +1,28 @@
+* {
+	padding: 0px;margin:0px;border:none;
+}
+#greyblock{
+	margin:0 auto;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	background-color: #ccc;
+	width: 400px;
+	height: 200px;
+}
+.corner {
+	background-color: #fc0;
+	width: 50px;
+	height: 50px;
+}
+#right {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	border-top-left-radius: 50px;
+}
+#left {
+	border-bottom-right-radius: 50px;	
+}

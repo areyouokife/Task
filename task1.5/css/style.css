@@ -1,0 +1,162 @@
+body {
+	background-color: #ccc;
+	box-sizing: border-box;
+	margin:0px;
+	border:none;
+	padding: 0px;
+	font-size: 15px;
+	line-height: 25px;
+	overflow-x: hidden;
+}
+#logo {
+	height: 80px;
+	margin-left:20px;
+	border-radius: 50px;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+#header {
+	min-width: 500px;
+	padding: 10px;
+	background-color: #333;
+	width: 100%;
+}
+#header nav {
+	position: relative;
+	color:#fff;
+	float: right;
+}
+#header li {
+	line-height: 66px;
+	height: 90px;
+	width: 70px;
+	font-size: 12px;
+	float: left;
+	margin-right: 10px;
+}
+#main {
+	float: left;
+	width: 60%;
+	clear: both;
+	margin: 0 0 20px 20px;
+}
+.article h1 {
+	font-size: 25px;
+		font-family: "黑体";
+}
+.article {
+	padding: 20px;
+	background-color: #fff;
+	width: 95%;
+	border: 1px solid #fafafa;
+	box-shadow: 1px 1px 1px #999;
+	margin:0 auto;
+	margin-top: 20px;
+}
+.article h2,.article span {
+	color:#777;
+}
+.article p {
+	text-indent: 2em;
+}
+.article span {
+	font-size: 12px;
+	margin-left: 5px;
+}
+.article img {
+	width: 80%;
+}
+.article ul {
+	list-style: none;
+}
+.article figure {
+	margin: 20px;
+	float: left;
+	padding: 10px;
+	border: 1px solid #999;
+	text-align: center;
+}
+.article ol {
+	font-family: "黑体";
+	font-weight: bolder;
+}
+#picWrap img {
+	width: 150px;
+}
+#picWrap {
+	overflow: auto;
+	clear: both;
+}
+.article:last-child {
+	clear: both;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+	border:1px solid #aaa;
+}
+table th {
+	background-color: #222;
+	color: #fff;
+}
+tr:last-child{
+	background-color: #ddd;
+}
+#sideBar {
+	float: right;
+	width: 420px;
+	margin-right: 20px;
+}
+#sideBar h1 {
+	font-size: 20px;
+	font-family: "黑体";
+	font-weight: bolder;	
+	display: block;
+	padding: 10px;
+	border-left: 3px solid #aaa;
+}
+#sideBar form {
+	font-size: 12px;
+	padding: 20px;
+	line-height: 40px;
+}
+#sideBar p {
+	text-indent: 0em;
+	margin-left: 40%;
+	color:#777;
+	line-height: 16px;
+	font-size: 14px;
+	margin-top: 3px;
+}
+form label {
+	width: 40%;
+	float: left;
+	text-align: right;
+}
+
+textarea {
+	height: 80px;
+	width: 55%;
+}
+input:last-child {
+	width: 100%;
+	height: 45px;
+	color:#fff;
+	font-family: "黑体";
+	font-size: 20px;
+	background-color: blue;
+	border-radius: 10px;
+}
+footer {
+	width: 100%;
+	clear: both;
+	color:#fff;
+	font-family: "黑体";
+	font-size: 15px;
+	background-color: #333;
+	text-align: center;
+	margin-top: 50px;
+	padding: 5px;
+}

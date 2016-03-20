@@ -1,0 +1,43 @@
+div {
+	padding: 20px;
+	border:1px solid #999;
+	background-color: #fff;
+	box-shadow: 1px 1px 1px #999;
+}
+#container {
+	min-width: 800px;
+	height: 600px;
+	background-color: #eee;
+}
+#middle {
+	min-width: 200px;
+	font-size: 15px;
+	line-height: 25px;
+	width: auto;
+	margin:0 200px 0 280px;
+}
+
+#left {
+	float: left;
+	width: 200px;
+}
+#left img {
+	display: inline-block;
+	float: left;
+	width: 100px;
+}
+#left span {
+	margin-left: 30px;
+	height: 160px;
+	line-height: 100px;
+	font-weight: bolder;
+}
+#right {
+	float: right;
+	width: 120px;
+}
+#right img {
+	margin: 10px;
+	width: 100px;
+	border-radius: 50px;
+}

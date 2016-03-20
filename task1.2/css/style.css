@@ -1,0 +1,137 @@
+body {
+	background-color: #ccc;
+	box-sizing: border-box;
+	margin:0px;
+	padding: 0px;
+	font-size: 15px;
+	line-height: 20px;
+	overflow-x: hidden;
+}
+#logo {
+	height: 100px;
+	margin:0px;
+	border-radius: 50px;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+#header {
+	vertical-align: middle;
+	padding: 10px;
+	background-color: #333;
+	width: 100%;
+}
+#header nav {
+	vertical-align: middle;
+	padding: 10px 0px;
+	color:#fff;
+	float: right;
+}
+#header li {
+	width: 70px;
+	font-size: 12px;
+	float: left;
+	margin-right: 10px;
+}
+#header h1 {
+	display: inline-block;
+}
+#main {
+	clear: both;
+}
+.article {
+	padding: 20px;
+	background-color: #fff;
+	width: 95%;
+	border: 1px solid #fafafa;
+	box-shadow: 1px 1px 1px #999;
+	margin:0 auto;
+	margin-top: 20px;
+}
+.article h2,.article span {
+	color:#777;
+}
+.article p {
+	text-indent: 2em;
+}
+.article span {
+	font-size: 12px;
+	margin-left: 5px;
+}
+.article ul {
+	list-style: none;
+}
+.article figure {
+	
+	display: inline-block;
+	padding: 20px;
+	margin-right: 9999px;
+	border: 1px solid #999;
+	text-align: center;
+}
+.article ol {
+	font-family: "黑体";
+	font-weight: bolder;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+	border:1px solid #aaa;
+}
+table th {
+	background-color: #222;
+	color: #fff;
+}
+tr:last-child{
+	background-color: #ddd;
+}
+#sideBar h1 {
+	font-size: 20px;
+	font-family: "黑体";
+	font-weight: bolder;	
+	display: block;
+	padding: 10px;
+	border-left: 3px solid #aaa;
+}
+#sideBar form {
+	font-size: 12px;
+	padding: 20px;
+	line-height: 40px;
+}
+#sideBar p {
+	text-indent: 0em;
+	margin-left: 40%;
+	color:#777;
+	line-height: 16px;
+	font-size: 14px;
+	margin-top: 3px;
+}
+form label {
+	width: 40%;
+	float: left;
+	text-align: right;
+}
+
+textarea {
+	height: 80px;
+	width: 55%;
+}
+input:last-child {
+	width: 100%;
+	height: 45px;
+	color:#fff;
+	font-family: "黑体";
+	font-size: 20px;
+	background-color: blue;
+	border-radius: 10px;
+}
+footer {
+	color:#fff;
+	font-family: "黑体";
+	font-size: 15px;
+	background-color: #333;
+	text-align: center;
+	margin-top: 20px;
+	padding: 5px;
+}
