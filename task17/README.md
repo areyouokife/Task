@@ -15,3 +15,4 @@ function randomColor(){
 
 * change事件
 * 更多的逻辑
+* selectedIndex属性
