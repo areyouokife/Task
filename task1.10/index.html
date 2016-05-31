@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TASK1.10</title>
+<style type="text/css">
+body{
+	margin:0px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+#flexContainer{
+	display: flex;
+
+	background: tomato;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+#items1 {
+	border:1px solid #000;
+	width: 150px;
+	height: 120px;
+	background: #fff;
+}
+#items2 {
+	border:1px solid #000;
+	width: 150px;
+	height: 100px;
+	background: #fff;
+}
+#items3 {
+	border:1px solid #000;
+	width: 150px;
+	height: 40px;
+	background: #fff;
+}
+#items4 {
+	border:1px solid #000;
+	width: 150px;
+	height: 200px;
+	background: #fff;
+}
+@media all and (max-width: 640px){
+#flexContainer{
+	display: flex;
+	background: tomato;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+#items1 {
+	border:1px solid #000;
+	width: 150px;
+	order:2;
+	height: 120px;
+	background: #fff;
+}
+#items2 {
+	border:1px solid #000;
+	order:3;
+	width: 150px;
+	height: 100px;
+	background: #fff;
+}
+#items3 {
+	border:1px solid #000;
+	order:4;
+	width: 150px;
+	height: 40px;
+	background: #fff;
+}
+#items4 {
+	border:1px solid #000;
+	width: 150px;
+	order:1;
+	height: 200px;
+	background: #fff;
+}
+}
+</style>
+</head>
+<body>
+<div id="flexContainer">
+	<div id="items1">
+		flexItem1
+	</div>
+	<div id="items2">
+		flexItem2
+	</div>
+	<div id="items3">
+		flexItem3
+	</div>
+	<div id="items4">
+		flexItem4
+	</div>
+</div>
+</body>
+</html>
