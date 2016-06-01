@@ -1,0 +1,140 @@
+*{
+	margin:0px;padding: 0px;font-size: 16px;font-family: "Microsoft Yahei";box-sizing: border-box;
+}
+body,html{
+	width:100%;
+	height: 100%;
+}
+h1{
+	background: #91d4d4;
+	width: 100%;
+	text-align: center;
+	font-size: 22px;
+	color:#fff;
+	padding: 2%;
+}
+#nav li{
+		float: left;
+		list-style: none;
+		padding: 5%;
+}
+#nav li:hover{
+	border-bottom: 2px solid #91d4d4;
+}
+#nav ul {
+	display: flex;
+	justify-content: space-around;
+}
+#banner{
+	width: 100%;
+	border:1px solid #ccc;
+}
+#labelWraper{
+	display: flex;
+	justify-content: space-between;
+	margin:0 5%;
+	padding:5% 0;
+	border-bottom: 2px solid #ccc;
+}
+.labelContainer {
+	float: left;
+	flex:2;
+	margin-left: 5%;
+	text-align: center;
+}
+.labelContainer:first-child{
+	margin-left: 0%;
+}
+.labelContainer div:first-child{
+	border-radius: 50%;
+	background: #00c8d5;
+	padding-bottom: 100%;
+	background-image: url(label.jpg);
+	background-position: center;
+	background-size: auto;
+    background-repeat: no-repeat;
+    margin-bottom: 25%;
+}
+#columns{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 2%;
+	margin-top: 2%;
+}
+.column div{
+	font-size: 14px;
+}
+.column img{
+	margin:0 auto;
+	width: 80%;
+	border:none;
+}
+.column{
+	width: 33%;
+	text-align: center;
+	border-left: 2px solid #ccc;
+}
+.column:first-child{
+	border-left:0;
+	padding: 0px;
+}
+
+.module{
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.module h2{
+	width:100%;
+	border-bottom: 2px solid #ccc;
+	clear: both;
+	padding: 2%;
+}
+
+.module div,.module img{
+	width: 30%;
+	float: left;
+	margin-top: 2%;
+}
+.module img{
+}
+.module div{
+	height: 0;
+	padding-bottom: 13%;
+	background: #ddd;
+	margin:2% 0 2% 2%;
+}
+.module:last-child{
+	clear: both;
+}
+#articleLsit {
+	height: 100%;
+}
+.articles {
+	width:100%;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+}
+.articles img{
+	width:30%;
+	float: left;
+}
+.articlesTitle{
+	width:60%;
+	flex:2;
+	font-size: 22px;
+}
+.articlesTitle h3{
+	height: 0;
+}
+.articlesTitle span{
+	height: 0;
+	display: inline-block;
+	padding-top: 33%;
+}
+#lastArticle img{
+	width:33%;
+	float: left;
+}
