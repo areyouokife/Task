@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>task1.12</title>
+</head>
+<style type="text/css">
+*{
+	margin:0px;padding: 0px;box-sizing: content-box;
+}
+#container{
+	width:50%;
+	border:1px solid #ccc;
+	margin:0 auto;
+	margin-top: 100px;
+	padding: 20px;
+}
+#container table {
+	border:1px solid #ccc;
+	width:60%;
+	margin:0 auto;
+	border-collapse: collapse;
+}
+#container table tr,#container table td,#container table th {
+	border:1px solid #ccc;
+	text-align: center;
+
+}
+#container table tr:nth-child(2n+1){
+	background: #ccc;
+}
+#container table tr:nth-child(2),
+#container table tr:nth-child(3),
+#container table tr:nth-child(4){
+	color: tomato;
+}
+#container table th{
+	background: #000;
+	color:#fff;
+}
+input{
+	display: block;
+	width:150px;
+	transition: width 0.5s;
+	border:1px solid #ccc;
+	margin:0 auto;
+	margin-top: 50px;
+}
+input:focus{
+	width: 300px;
+}
+#imgsWrap{
+	position: relative;
+	margin:0 auto;
+	width:480px;
+	overflow: hidden;
+	margin-top: 100px;
+
+}
+@-webkit-keyframes banner{
+	0%{
+		left:0px;
+	}
+	33.3%{left:-480px;}
+	66.6%{left:-960px;}
+	100%{left:0px;}
+}
+#imgContainer{
+	position: relative;
+	animation: banner 3s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	width:9999px;
+}
+#imgContainer img {
+	width:480px;
+	float: left;
+}
+.button{
+	position: absolute;
+	z-index: 999px;
+	background: #666;
+	width:30px;
+	height: 30px;
+	bottom:0px;
+	right:0px;
+	opacity: 0.6;
+	color:#fff;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+}
+</style>
+<body>
+<div id="container">
+	<table>
+		<tbody>
+			<tr>
+				<th>排名</th>
+				<th>网站</th>
+				<th>热度</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>google</td>
+				<td>12323</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>google</td>
+				<td>12323</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>google</td>
+				<td>12323</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>google</td>
+				<td>12323</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>google</td>
+				<td>12323</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>google</td>
+				<td>12323</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>google</td>
+				<td>12323</td>
+			</tr>
+		</tbody>
+	</table>
+	<input type="text" name="username">
+	<div id="imgsWrap">
+		<div id="imgContainer">
+			<img src="images/1.jpg" id="slider1">
+			<img src="images/2.jpg" id="slider2">
+			<img src="images/3.jpg" id="slider3">
+
+		</div>
+		<div class="button" id="button1"><a href="#imgContainer">1</a></div>
+		<div class="button" id="button2"><a href="#imgContainer">2</a></div>
+		<div class="button" id="button3"><a href="#imgContainer">3</a></div>
+	</div>
+</div>
+</body>
+</html>
