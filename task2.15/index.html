@@ -25,7 +25,7 @@
 
   </ul>
 
-  <button id="sortBtn" onclick="btnHandle()">排序</button>
+  <button id="sortBtn">排序</button>
 
 <script type="text/javascript">
 
@@ -47,7 +47,6 @@ for (var i = cityText.length - 1; i >= 0; i--) {
   cityData[1]=parseInt(cityText[i].lastChild.firstChild.nodeValue);
   data.push(cityData);
 }
-console.log(data);
   return data;
 }
 
@@ -82,18 +81,18 @@ function render(data) {
 function btnHandle() {
   var aqiData = getData();
   aqiData = sortAqiData(aqiData);
-    alert(aqiData);
   render(aqiData);
-
- // alert("d");
+  var btn=document.getElementById('sortBtn');
+  btn.removeEventListener("click",btnHandle,true);
 }
 
 
 function init() {
-  var btn=document.getElementById('sortBtn');
- // btn.onclick=btnHandle();
-  // 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
 
+  // 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
+  var btn=document.getElementById('sortBtn');
+  btn.addEventListener("click",btnHandle,true);
+  //btn.onclick=btnHandle();
 }
 
 init();
